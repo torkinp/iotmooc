@@ -1,0 +1,11 @@
+nums = []
+for i in range(3):
+    nums.append(input("Enter a number: "))
+
+nums.sort()
+for i in range(nums):
+    print(i, end='')
+    
+
+print()
+
